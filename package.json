@@ -1,0 +1,63 @@
+{
+  "name": "sandfox-node",
+  "version": "0.0.0",
+  "main": "Gruntfile.js",
+  "description": "Node library with utilities",
+  "keywords": [
+    "node",
+    "javascript",
+    "framework"
+  ],
+  "debug":true,
+  "scripts": {
+    "watch": "grunt watch",
+    "compile": "grunt node",
+    "ci-test": "grunt travis --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://foxnet-git@github.com/foxnet-git/sandfox-node.git",
+    "url_commit": "https://github.com/foxnet-git/sandfox-node/commit",
+    "url_tag": "https://github.com/foxnet-git/sandfox-node/releases/tag"
+  },
+  "author": {
+    "name": "Rubén López Gómez",
+    "email": "loslopez1@icloud.com",
+    "url": "https://twitter.com/Rubeniskov"
+  },
+  "contributors": [
+    {
+      "name": "Alberto Galán Álvarez",
+      "email": "albertogalanalvarez@gmail.com",
+      "url": "https://twitter.com/magicmoli1"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/foxnet-git/sandfox-node/blob/master/LICENSE.md"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/foxnet-git/sandfox-node/issues"
+  },
+  "homepage": "https://github.com/foxnet-git/sandfox-node",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-karma": "^0.9.0",
+    "grunt-jass": "git+https://github.com/foxnet-es/grunt-jass.git",
+    "jasmine-core": "^2.1.3",
+    "karma": "^0.12.28",
+    "karma-benchmark-reporter": "^0.1.1",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-jasmine": "^0.3.2",
+    "karma-junit-reporter": "^0.2.2",
+    "karma-opera-launcher": "^0.1.0",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-requirejs": "^0.2.2",
+    "karma-safari-launcher": "^0.1.1",
+    "time-grunt": "^1.1.0"
+  }
+}
