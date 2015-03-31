@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+    <head>
+
+        <meta content="text/html; charset=iso-8859-15" http-equiv="Content-Type">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"/>
+
+        <title>ueScript Test Framework</title>
+
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+        <link href='lib/jasmine/jasmine.css' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript" src="../dist/ue-script.js"></script>
+
+        <script type="text/javascript" src="lib/jasmine/jasmine.js"></script>
+
+        <script type="text/javascript" src="lib/jasmine/jasmine.console.js"></script>
+
+        <script type="text/javascript" src="lib/jasmine/jasmine.html.js"></script>
+
+        <script type="text/javascript" src="lib/jasmine/jasmine.boot.js"></script>
+
+        <meta http-equiv="refresh" content="20">
+
+    </head>
+    <body>
+
+        
+        <script type="text/javascript">
+
+            loadScript             = function( url, callback ) 
+            {
+                var script          = document.createElement('script');
+
+                    script.async    = true;
+
+                    script.src      = url;
+
+                    script.onload   = function( e )
+                    {
+                        callback && callback.call && callback.call( null, null, e );
+                    };
+
+                    script.onerror  = function( e )
+                    {
+                        callback && callback.call && callback.call( null, '[FAIL_TO_LOAD SCRIPT: ' +url + ']', e );
+                    };
+
+                    document.body.appendChild( script );
+            };
+
+            var units   = 
+            ([
+                'unit-ue-core-number',
+                'unit-ue-core-string',
+                'unit-ue-core-collection',
+                'unit-ue-core-object',
+                'unit-ue-core-array',
+                'unit-ue-core-function',
+
+                'unit-ue-css',
+                'unit-ue-widget',
+            ]);
+
+            for( var i = 0; i < units.length; i ++  )
+            {
+                (function( url )
+                {
+                    loadScript( url, function()
+                    {
+                        console.log( 'Loaded Test Script: [' + url + ']' )
+                    });
+                })( 'unit/' + units[ i ] + '.js' );
+            }
+
+            jasmine.getEnv().addReporter
+            ({
+                suiteDone   : function( results )
+                {
+                    
+                },
+
+                jasmineDone : function()
+                {
+                    
+                }
+            });
+
+        </script>
+        
+    </body>
+</html>

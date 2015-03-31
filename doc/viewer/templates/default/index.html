@@ -1,0 +1,127 @@
+<div class="sidebar">
+
+    <div class="topbar">
+
+        <div class="input-group">
+
+            <input data-create-md type="text" class="form-control">
+
+            <span class="input-group-btn">
+
+                <button data-create-markdown class="btn btn-default btn-primary" type="button"><i class="fa fa-plus"></i></button>
+
+            </span>
+
+        </div>
+
+    </div>
+
+    <ul>
+        {% for doc_index, doc_name in docs %}
+        <li {% if doc.name == doc_name %}class="active"{% endif %}>
+
+            <a href="{{doc_name}}" alias="doc_name">{{doc_name}}</a>
+
+            <ul class="sections">
+            {% if doc.name == doc_name %}
+
+                {% for section_hash, section_name in doc.sections %}
+                <li>
+                    <a href="#{{section_hash}}">{{section_name}}</a>
+                </li>
+                {% endfor %}
+
+            {% endif %}
+            </ul>
+
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>
+
+<div class="main-content">
+
+    {% if doc.name %}
+
+    <div class="toolbar">
+
+        <div class="btn-group">
+
+            <button data-delete-markdown class="btn btn-danger"><i class="fa fa-trash"></i></button>
+
+            <button data-toggle-editor class="btn btn-warning"><i class="fa fa-pencil"></i></button>
+
+            <button data-save-markdown class="btn btn-success"><i class="fa fa-save"></i></button>
+
+        </div>
+
+    </div>
+
+    <div id="markdown-editor">
+
+        <div class="view-content">
+
+            {{ doc.html }}
+
+        </div>
+
+        <div class="edit-content">
+
+            <div class="toolbar">
+                
+                <div class="btn-group">
+
+                    <button class="btn btn-default" data-markdown-command="header"><i class="fa fa-font"></i></button>
+                    
+                    <button class="btn btn-default" data-markdown-command="bold"><i class="fa fa-bold"></i></button>
+
+                    <button class="btn btn-default" data-markdown-command="italic"><i class="fa fa-italic"></i></button>
+
+                    <button class="btn btn-default" data-markdown-command="underline"><i class="fa fa-underline"></i></button>
+
+                    <button class="btn btn-default" data-markdown-command="link"><i class="fa fa-link"></i></button>
+
+                    <button class="btn btn-default" data-markdown-command="indent"><i class="fa fa-indent"></i></button>
+
+                    <button class="btn btn-default" data-markdown-command="dedent"><i class="fa fa-dedent"></i></button>
+
+                    <button class="btn btn-default" data-markdown-command="list"><i class="fa fa-list-ul"></i></button>
+
+                </div>
+
+            </div>
+
+            <textarea file="{{doc.file}}">{{ doc.markdown }}</textarea>
+
+        </div>
+
+    </div>
+
+    {% else %}
+
+    <ul class="doc-list">
+        {% for doc_index, doc_name in docs %}
+        <li>
+
+            <a href="{{doc_name}}" alias="doc_name">{{doc_name}}</a>
+
+        </li>
+        {% endfor %}
+    </ul>
+
+    {% endif %}
+
+</div>
+
+{% else %}
+
+<ul class="doc-list">
+    {% for fw_index, fw_name in frameworks %}
+    <li>
+
+        <a href="{{fw_name}}/" alias="fw_name">{{fw_name}}</a>
+
+    </li>
+    {% endfor %}
+</ul>

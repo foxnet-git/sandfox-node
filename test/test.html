@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+    <head>
+
+        <meta content="text/html; charset=iso-8859-15" http-equiv="Content-Type">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"/>
+
+        <title>ueScript Test Framework</title>
+
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+        <link href='lib/jasmine/jasmine.css' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript" src="../dist/ue-script.js"></script>
+
+        <script type="text/javascript" src="../vendors/underscore/underscore.js"></script>
+        <!--
+        <script type="text/javascript" src="lib/jasmine/jasmine.js"></script>
+
+        <script type="text/javascript" src="lib/jasmine/jasmine.console.js"></script>
+
+        <script type="text/javascript" src="lib/jasmine/jasmine.html.js"></script>
+
+        <script type="text/javascript" src="lib/jasmine/jasmine.boot.js"></script>
+        -->
+
+    </head>
+    <body>
+
+    <script type="text/javascript">
+
+
+        /*var chars = [ 'Hola', 'Adios' ];
+
+
+        console.log( new RegExp( ('[{{$1}}|{{$2}}]\s').replace( /\{\{\$([0-9]+)\}\}/g, function( match, index )
+        {
+            return ( index === '*' ? chars.join( '|' ) : chars[ index ] ) || new Error( 'Error RegExp value at ' + index + ' in [ ' + chars.join( ',' ) + ' ] not found' );
+        })) );*/
+
+        //console.log( ue.property( 'foo.bar.foo.1' )({ 'foo' : { 'bar' : { 'foo' : [ 0, 100 ] } } }) );
+
+        var json = { 'hola' : {'adios' :true } };
+
+
+        console.log( ue.value( json, 'hola.adios', false ), json );
+
+        console.log( ue.property( 'hola.adios', json, false ), json );
+/*
+        var wfoo    = ue.widget( 'wfoo', 
+            {
+            __construct      : function()
+            {
+                console.log( 'wfoo' );
+            }
+            }),
+
+            wbar    = ue.widget( wfoo, 'wbar', 
+            {
+            __construct      : function()
+            {
+                this._super();
+
+                console.log( 'wbar' );
+            }
+            }),
+
+            nwfoo   = new wfoo( document.body, { 'hiden' : false, 'enabled' : true }),
+
+            nwbar   = new wbar( document.body, { 'hiden' : false, 'enabled' : false });  
+
+            nwfoo.setOption( 'test', true );
+
+            nwbar.setOption( 'test', false );
+
+            console.log( nwfoo, nwbar )*/
+    </script>
+        
+    </body>
+</html>

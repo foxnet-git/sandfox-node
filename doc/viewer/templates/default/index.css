@@ -1,0 +1,307 @@
+html,
+body
+{
+    height: 100%;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+main 
+{
+    height: 100%;
+    margin-top: 80px;
+}
+
+header
+{
+    background-color: #2a2c36;
+    border-bottom: 10px solid #1d1f29;
+    color: #ffffff;
+    padding: 0 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 15;
+    height: 80px;
+}
+
+.doc-list 
+{
+    padding: 20px;
+    margin: 0;
+    list-style: none;
+}
+
+.doc-list li a
+{
+    background-color: #2a2c36;
+    color: #ffffff;
+    display: block;
+    font-size: 3em;
+    height: 5em;
+    line-height: 5em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.doc-list li a:hover
+{
+    background-color: #3f414b;
+}
+
+.sidebar
+{
+    background: none repeat scroll 0 0 #2a2c36;
+    color: white;
+    height: 100%;
+    left: 0;
+    min-height: 450px;
+    padding: 25px 15px 0;
+    position: fixed;
+    width: 300px;
+    z-index: 10;
+    overflow: scroll;
+
+    -webkit-transition: left 1s; /* For Safari 3.1 to 6.0 */
+    transition: left 1s;
+}
+
+.sidebar ul, 
+.sidebar ul li
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebar ul li,
+.sidebar ul li a
+{
+    display: block;
+}
+
+.sidebar > ul > li.active > a
+{
+    background: none repeat scroll 0 0 #353844;
+    border-left: 3px solid #20a8d8;
+    color: white;
+}
+
+.sidebar > ul > li.active ul
+{
+    background-color: #2d303c;
+    border-left: 3px solid #006595;
+}
+
+.sidebar ul li ul
+{
+    padding-left: 20px;
+}
+
+.sidebar li a
+{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: transparent;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: transparent;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF !important;
+    padding: 10px; 
+}
+
+.sidebar > ul > li > a
+{
+    text-transform: uppercase;    
+}
+
+.sidebar .topbar
+{
+    margin-bottom: 20px;
+}
+
+.sidebar .topbar input
+{
+    background-color: #24252C;
+    border-color: #3D3E4B;
+    color: #EFEFEF;
+}
+
+.sidebar .topbar input:focus
+{
+    background-color: #EFEFEF;
+    border-color: #c3c3c3;
+    color: #24252C;
+}
+
+.main-content
+{
+    height: 100%;
+    padding: 0 0 20px 320px;
+    position: relative;
+
+    -webkit-transition: padding 1s; /* For Safari 3.1 to 6.0 */
+    transition: padding 1s;
+}
+
+.main-content .toolbar
+{
+    font-size: 36px;
+    line-height: 0.9;
+    margin-bottom: 10px;
+    margin-top: 22px;
+    position: fixed;
+    right: 22px;
+    z-index: 50;
+}
+
+#markdown-editor .view-content
+{
+    width: 100%;
+    padding-right: 20px;
+}
+
+#markdown-editor .edit-content
+{
+    position: relative;
+    display: none;
+}
+
+#markdown-editor.open .edit-content
+{
+    display: table-cell;
+}
+
+#markdown-editor.open .view-content
+{
+    display: none;
+}
+
+#markdown-editor .edit-content > textarea {
+    background-color: #f6f6f6;
+    border: none;
+    border-left: 2px dashed #ccc;
+    font-family: "Monaco",courier,monospace;
+    font-size: 14px;
+    height: 100% !important;
+    outline: medium none;
+    overflow: hidden;
+    padding: 20px;
+    position: absolute;
+    resize: none;
+    top: 0;
+    width: 100% !important;
+}
+
+#markdown-editor
+{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+#markdown-editor .edit-content .toolbar
+{
+    left: -35px;
+    position: absolute;
+    width: 1em;
+    opacity: 0.3;
+    -webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+    z-index: 10;
+}
+
+#markdown-editor .edit-content .toolbar:hover
+{
+    opacity: 1;
+}
+
+#markdown-editor .edit-content .toolbar button
+{
+    float: right;
+    width: 2.5em;
+}
+
+#markdown-editor .edit-content .toolbar button:first-child
+{
+    border-radius: 5px 0px 0px 0px;
+}
+
+#markdown-editor .edit-content .toolbar button:last-child
+{
+    border-radius: 0px 0px 0px 5px;
+}
+
+@media all and (min-width: 992px) {
+
+    #markdown-editor.open > div
+    {
+        width: 50%;
+        display: table-cell !important;
+        float: none;
+    }
+}
+
+@media all and (max-width: 992px) {
+
+    .sidebar
+    {
+        left: -285px;
+        overflow: hidden;
+    }
+
+    .sidebar:hover
+    {
+        left: 0;
+        overflow: scroll;
+    }
+
+    .main-content
+    {
+        padding-left: 30px;
+    }
+
+    #markdown-editor .edit-content > textarea
+    {
+        overflow-y: scroll;
+    }
+}

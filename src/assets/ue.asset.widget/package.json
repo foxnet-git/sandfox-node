@@ -1,0 +1,12 @@
+{
+    "name": "ue.asset.widget",
+    "version": "0.0.1",
+    "description": "",
+    "author": "",
+    "dependencies": 
+    {
+    	"ue.asset.template" : "^v0.0.1",
+    	"ue.asset.store" : "^v0.0.1",
+    	"ue.asset.dom" : "^v0.0.1"
+    }
+}

@@ -1,0 +1,1459 @@
+[
+    {
+        "name": "ue.asset.widget",
+        "modules": [
+            "ue.assets"
+        ],
+        "methods": []
+    },
+    {
+        "name": "ue.assets",
+        "modules": [],
+        "methods": [],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/ue.assets.js",
+        "line": 13
+    },
+    {
+        "name": "ue-widget",
+        "modules": [
+            "ue-script"
+        ],
+        "methods": [
+            {
+                "module": "ue-widget",
+                "description": "Adds the same handler for all of the specified attrs",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 865,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Checks document order of two siblings",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 879,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Returns a function to use in pseudos for input types",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 908,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Returns a function to use in pseudos for buttons",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 919,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Returns a function to use in pseudos for positionals",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 930,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Checks a node for validity as a Sizzle context",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 952,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Detects XML nodes",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 964,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Document sorting and removing duplicates",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 1414,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Utility function for retrieving the text value of an array of DOM nodes",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 1447,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "A low-level selection function that works with Sizzle's compiled\n selector functions",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 2420,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "The ready event handler and self cleanup method",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 3380,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Determines whether an object can have data",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 3473,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Retrieve the actual display of a element",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 5431,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Try to determine the default display value of an element",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 5455,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Load a url into a page",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 8783,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Gets a window from an element",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.jquery.js",
+                "line": 8867,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Fallback for Array.indexOf for IE8 et al",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 30,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Exception thrown by twig.js.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 129,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Get the string representation of a Twig error.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 138,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Wrapper for logging to the console.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 147,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Container for methods related to handling high level template tokens\n     (for example: {{ expression }}, {% logic %}, {# comment #}, raw data)",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 169,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Token types.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 175,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Token syntax definitions.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 185,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "What characters start \"strings\" in token definitions. We need this to ignore token close\nstrings inside an expression.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 221,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Convert a template into high-level tokens.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 323,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Parse a compiled template.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 528,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Tokenize and compile a string template.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 598,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Join the output token's stack and escape it if needed",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 621,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Is this id valid for a twig template?",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 649,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Save a template object to the store.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 666,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Load a previously saved template from the store.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 678,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Load a template from a remote location using AJAX and saves in with the given ID.\n\nAvailable parameters:\n\n     async:       Should the HTTP request be performed asynchronously.\n                     Defaults to true.\n     method:      What method should be used to load the template\n                     (fs or ajax)\n     precompiled: Has the template already been compiled.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 692,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Create a new twig.js template.\n\nParameters: {\n     data:   The template, either pre-compiled tokens or a string template\n     id:     The name of this template\n     blocks: Any pre-existing block from a child template\n}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 788,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Create safe output",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 968,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Generate the relative canonical version of a url based on the given base path and file path.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 984,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "sprintf() for JavaScript 0.7-beta1\nhttp://www.diveintojavascript.com/projects/javascript-sprintf",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 1093,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "jPaq - A fully customizable JavaScript/JScript library\nhttp://jpaq.org/\n\nCopyright (c) 2011 Christopher West\nLicensed under the MIT license.\nhttp://jpaq.org/license/\n\nVersion: 1.0.6.0000W\nRevised: April 6, 2011",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 1252,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Namespace for logic handling.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 1805,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Logic token types.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 1810,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "If type logic tokens.\n\n Format: {% if expression %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 1864,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Else if type logic tokens.\n\n Format: {% elseif expression %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 1907,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Else if type logic tokens.\n\n Format: {% elseif expression %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 1946,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "End if type logic tokens.\n\n Format: {% endif %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 1970,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "For type logic tokens.\n\n Format: {% for expression %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 1981,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "End if type logic tokens.\n\n Format: {% endif %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2108,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Set type logic tokens.\n\n Format: {% set key = expression %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2119,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Set capture type logic tokens.\n\n Format: {% set key %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2158,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "End set type block logic tokens.\n\n Format: {% endset %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2193,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Filter logic tokens.\n\n Format: {% filter upper %} or {% filter lower|escape %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2204,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "End filter logic tokens.\n\n Format: {% endfilter %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2241,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Block logic tokens.\n\n Format: {% block title %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2252,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "End block logic tokens.\n\n Format: {% endblock %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2308,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Block logic tokens.\n\n Format: {% extends \"template.twig\" %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2319,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Block logic tokens.\n\n Format: {% use \"template.twig\" %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2353,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Block logic tokens.\n\n Format: {% includes \"template.twig\" [with {some: 'values'} only] %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2387,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Macro logic tokens.\n\nFormat: {% maro input(name, value, type, size) %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2492,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "End macro logic tokens.\n\nFormat: {% endmacro %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2551,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "The embed tag combines the behaviour of include and extends.\nIt allows you to include another template's contents, just like include does.\n\n Format: {% embed \"template.twig\" [with {some: 'values'} only] %}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2673,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Registry for logic handlers.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2769,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Define a new token type, available at Twig.logic.type.{type}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2774,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Extend the logic parsing functionality with a new token definition.\n\n// Define a new tag\nTwig.logic.extend({\n    type: Twig.logic.type.{type},\n    // The pattern to match for this token\n    regex: ...,\n    // What token types can follow this token, leave blank if any.\n    next: [ ... ]\n    // Create and return compiled version of the token\n    compile: function(token) { ... }\n    // Parse the compiled token with the context provided by the render call\n    //   and whether this token chain is complete.\n    parse: function(token, context, chain) { ... }\n});",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2782,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Compile a logic token into an object ready for parsing.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2820,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Tokenize logic expressions. This function matches token expressions against regular\nexpressions provided in token definitions provided with Twig.logic.extend.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2841,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Parse a logic token within a given context.\n\nWhat are logic chains?\n     Logic chains represent a series of tokens that are connected,\n         for example:\n         {% if ... %} {% else %} {% endif %}\n\n     The chain parameter is used to signify if a chain is open of closed.\n     open:\n         More tokens in this chain should be parsed.\n     closed:\n         This token chain has completed parsing and any additional\n         tokens (else, elseif, etc...) should be ignored.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2894,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Namespace for expression handling.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2944,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Reserved word that can't be used as variable names.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2949,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "The type of tokens used in expressions.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 2956,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Match a string. This is anything between a pair of single or double quotes.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3207,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Match a parameter set start.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3231,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Match a parameter set end.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3241,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Match an array start.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3323,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Match an array end.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3333,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Match a null value.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3621,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Match the context",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3636,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Match a number (integer or decimal)",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3649,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Match a boolean",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3663,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Resolve a context value.\n\nIf the value is a function, it is executed with a context parameter.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3678,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Registry for logic handlers.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3694,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Define a new expression type, available at Twig.logic.type.{type}",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3699,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Extend the expression parsing functionality with a new definition.\n\nToken definitions follow this format:\n {\n     type:     One of Twig.expression.type.[type], either pre-defined or added using\n                   Twig.expression.extendType\n\n     next:     Array of types from Twig.expression.type that can follow this token,\n\n     regex:    A regex or array of regex's that should match the token.\n\n     compile: function(token, stack, output) called when this token is being compiled.\n                  Should return an object with stack and output set.\n\n     parse:   function(token, stack, context) called when this token is being parsed.\n                  Should return an object with stack and context set.\n }",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3708,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Break an expression into tokens defined in Twig.expression.definitions.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3741,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Compile an expression token.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3846,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Parse an RPN expression stack within a context.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3893,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Operator associativity constants.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3939,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Get the precidence and associativity of an operator. These follow the order that C/C++ use.\nSee http://en.wikipedia.org/wiki/Operators_in_C_and_C++ for the table of values.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 3963,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Handle operations on the RPN stack.\n\nReturns the updated stack.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 4041,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Adapted from: http://phpjs.org/functions/number_format:481",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 4533,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Create and compile a twig.js template.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 5090,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Provide an extension for use with express 2.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 5186,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Provide an extension for use with express 3.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 5212,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Shoud Twig.js cache templates.\nDisable during development to see changes to templates without\nreloading, and disable in production to improve performance.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 5253,
+                "overloads": []
+            },
+            {
+                "module": "ue-widget",
+                "description": "Namespace for compilation.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.template.js",
+                "line": 5276,
+                "overloads": []
+            }
+        ]
+    },
+    {
+        "name": "ue-script",
+        "modules": [],
+        "methods": [
+            {
+                "name": "len",
+                "type": "method",
+                "module": "ue-script",
+                "description": "Returns the number of characters that are in a string, using an integer.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.dom.css.js",
+                "line": 311,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 7\n  ue.len( 'foo bar' );"
+                ]
+            },
+            {
+                "name": "len",
+                "type": "method",
+                "module": "ue-script",
+                "description": "Returns the number of characters that are in a string, using an integer.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.dom.js",
+                "line": 333,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 7\n  ue.len( 'foo bar' );"
+                ]
+            },
+            {
+                "name": "len",
+                "type": "method",
+                "module": "ue-script",
+                "description": "Returns the number of characters that are in a string, using an integer.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.dom.js",
+                "line": 353,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 7\n  ue.len( 'foo bar' );"
+                ]
+            },
+            {
+                "name": "len",
+                "type": "method",
+                "module": "ue-script",
+                "description": "Returns the number of characters that are in a string, using an integer.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.dom.traversing.js",
+                "line": 310,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 7\n  ue.len( 'foo bar' );"
+                ]
+            }
+        ],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.browser.js",
+        "line": 3
+    },
+    {
+        "name": "ue-core",
+        "modules": [
+            "ue-core-utils",
+            "ue-core-array",
+            "ue-core-collection",
+            "ue-core-event",
+            "ue-core-function",
+            "ue-core-number",
+            "ue-core-object",
+            "ue-core-string",
+            "ue-core-var"
+        ],
+        "methods": [],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.js",
+        "line": 3
+    },
+    {
+        "name": "ue-core-utils",
+        "modules": [],
+        "methods": [
+            {
+                "name": "len",
+                "type": "method",
+                "module": "ue-core-utils",
+                "description": "Returns the number of characters that are in a string, using an integer.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.dom.manipulation.js",
+                "line": 9,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 7\n  ue.len( 'foo bar' );"
+                ]
+            },
+            {
+                "name": "len",
+                "type": "method",
+                "module": "ue-core-utils",
+                "description": "Returns the number of characters that are in a string, using an integer.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.dom.selector.js",
+                "line": 9,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 7\n  ue.len( 'foo bar' );"
+                ]
+            },
+            {
+                "name": "len",
+                "type": "method",
+                "module": "ue-core-utils",
+                "description": "Returns the number of characters that are in a string, using an integer.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.dom.selector.js",
+                "line": 61,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 7\n  ue.len( 'foo bar' );"
+                ]
+            },
+            {
+                "name": "len",
+                "type": "method",
+                "module": "ue-core-utils",
+                "description": "Returns the number of characters that are in a string, using an integer.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.tools.js",
+                "line": 9,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 7\n  ue.len( 'foo bar' );"
+                ]
+            },
+            {
+                "name": "len",
+                "type": "method",
+                "module": "ue-core-utils",
+                "description": "Returns the number of characters that are in a string, using an integer.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.utils.js",
+                "line": 9,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 7\n  ue.len( 'foo bar' );"
+                ]
+            }
+        ],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/assets/ue.dom.manipulation.js",
+        "line": 3
+    },
+    {
+        "name": "ue-social.network",
+        "modules": [],
+        "methods": []
+    },
+    {
+        "name": "ue-core-array",
+        "modules": [],
+        "methods": [
+            {
+                "name": "indexOf",
+                "type": "method",
+                "module": "ue-core-array",
+                "description": "Returns the index at which value can be found in the array, or -1 if value is not present in the array.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.array.js",
+                "line": 26,
+                "overloads": [],
+                "example": [
+                    "\n     \n  var matrix = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];\n\n  // 4\n  ue.indexOf( matrix, 5 );  \n\n  // -1\n  ue.indexOf( matrix, 10 );"
+                ]
+            },
+            {
+                "name": "sortedIndex",
+                "type": "method",
+                "module": "ue-core-array",
+                "description": "Uses a binary search to determine the index at which the value should be inserted into the array in order to maintain the array's sorted order.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.array.js",
+                "line": 65,
+                "overloads": [],
+                "example": [
+                    "\n     \n  var numbers = [ 10, 20, 30, 40, 50 ],\n\n      objects = [{x: 10}, {x: 20}, {x: 30}, {x: 40}],\n\n      context = {1: 2, 2: 3, 3: 4};\n\n  // 3\n  ue.sortedIndex( numbers, 35 );\n\n  // 2\n  ue.sortedIndex( numbers, 30 );\n\n  // 2\n  ue.sortedIndex( objects, { x: 25 }, function( obj )\n  {\n      return obj.x;\n  })\n\n  // 3\n  ue.sortedIndex( objects, { x: 35 }, 'x' )\n\n  // 1\n  ue.sortedIndex( [ 1, 3 ], 2, function( obj )\n  { \n      return this[ obj ];\n  }, context );"
+                ]
+            },
+            {
+                "name": "sortedIndex",
+                "type": "method",
+                "module": "ue-core-array",
+                "description": "Uses a binary search to determine the index at which the value should be inserted into the array in order to maintain the array's sorted order.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.array.js",
+                "line": 126,
+                "overloads": [],
+                "example": [
+                    "\n     \n  var numbers = [ 10, 20, 30, 40, 50 ],\n\n      objects = [{x: 10}, {x: 20}, {x: 30}, {x: 40}],\n\n      context = {1: 2, 2: 3, 3: 4};\n\n  // 3\n  ue.sortedIndex( numbers, 35 );\n\n  // 2\n  ue.sortedIndex( numbers, 30 );\n\n  // 2\n  ue.sortedIndex( objects, { x: 25 }, function( obj )\n  {\n      return obj.x;\n  })\n\n  // 3\n  ue.sortedIndex( objects, { x: 35 }, 'x' )\n\n  // 1\n  ue.sortedIndex( [ 1, 3 ], 2, function( obj )\n  { \n      return this[ obj ];\n  }, context );"
+                ]
+            }
+        ],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.array.js",
+        "line": 3
+    },
+    {
+        "name": "ue-core-collection",
+        "modules": [],
+        "methods": [
+            {
+                "name": "each",
+                "type": "method",
+                "module": "ue-core-collection",
+                "description": "Realiza una llamada a un iterador por cada uno de elementos contenidos en la colección.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.collection.js",
+                "line": 10,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // true\n  var fn = function( callback )\n  {\n     callback     = callback || ue.noop();\n  };"
+                ]
+            },
+            {
+                "name": "contains",
+                "type": "method",
+                "module": "ue-core-collection",
+                "description": "Returns true if the value is present in the list. Uses indexOf internally, if list is an Array.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.collection.js",
+                "line": 45,
+                "overloads": [],
+                "example": [
+                    "\n     \n  ue.contains( test, 'test' )"
+                ]
+            },
+            {
+                "name": "map",
+                "type": "method",
+                "module": "ue-core-collection",
+                "description": "Produces a new array of values by mapping each value in list through a transformation function (iteratee). If list is a JavaScript object, iteratee's arguments will be (value, key, list).",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.collection.js",
+                "line": 66,
+                "overloads": [],
+                "example": [
+                    "\n     \n  ue.contains( test, 'test' )"
+                ]
+            }
+        ],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.collection.js",
+        "line": 3
+    },
+    {
+        "name": "ue-core-event",
+        "modules": [],
+        "methods": [
+            {
+                "name": "indexOf",
+                "type": "method",
+                "module": "ue-core-event",
+                "description": "Returns the index at which value can be found in the array, or -1 if value is not present in the array.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.events.js",
+                "line": 93,
+                "overloads": [],
+                "example": [
+                    "\n     \n  var matrix = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];\n\n  // 4\n  ue.indexOf( matrix, 5 );  \n\n  // -1\n  ue.indexOf( matrix, 10 );"
+                ]
+            }
+        ],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.events.js",
+        "line": 3
+    },
+    {
+        "name": "ue-core-function",
+        "modules": [],
+        "methods": [
+            {
+                "name": "noop",
+                "type": "method",
+                "module": "ue-core-function",
+                "description": "Makes a empty function usefull to set a variable fallback helper.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.function.js",
+                "line": 19,
+                "overloads": [],
+                "example": [
+                    "\n     \n  var fn = function( callback )\n  {\n     return callback || ue.noop();\n  };\n  \n  // Function\n  fn( null )"
+                ]
+            },
+            {
+                "name": "negate",
+                "type": "method",
+                "module": "ue-core-function",
+                "description": "Returns a negated version of the callback function.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.function.js",
+                "line": 40,
+                "overloads": [],
+                "example": [
+                    "\n     \n  var fn = function( )\n  {\n     return true;\n  };\n  \n  // true\n  fn();\n\n  // false\n  negate( fn )();\n"
+                ]
+            },
+            {
+                "name": "lambda",
+                "type": "method",
+                "module": "ue-core-function",
+                "description": "Create a lambda function with the return expresion assigned by parameter.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.function.js",
+                "line": 69,
+                "overloads": [],
+                "example": [
+                    "\n     \n  var sum = ue.lambda( 'x+y' );\n  \n  // 2\n  sum( 1, 1 );"
+                ]
+            },
+            {
+                "name": "prepare",
+                "type": "method",
+                "module": "ue-core-function",
+                "description": "Prepare a callback with fixed arguments checking if context exists.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.function.js",
+                "line": 87,
+                "overloads": [],
+                "example": [
+                    "\n     \n  var context     = [ 1, 2, 3, 4 ],\n\n      fn          = ue.prepare( function( index )\n      {\n          return this[ index ] * index;\n      }, context, 1 );\n     \n      // 0\n      fn( 0 );\n\n      // 2\n      fn( 1 );\n\n      // 5\n      fn( 2 );"
+                ]
+            },
+            {
+                "name": "iterator",
+                "type": "method",
+                "module": "ue-core-function",
+                "description": "Return a iterator function depending by value type.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.function.js",
+                "line": 127,
+                "overloads": [],
+                "example": [
+                    "\n     \n  var collection  = [ { 'foo' : 1, 'bar' : 2 }, { 'foo' : 3, 'bar' : 4 }],\n\n      ite_fn      = ue.iterator( function( value, key, collection )\n      {\n          return value[ 'foo' ];\n      }),\n\n      ite_str     = ue.iterator( 'foo' ),\n\n      ite_obj     = ue.iterator({ 'foo' : 1, 'bar' : 2 });\n\n      for (var i = 0; i < collection.length; i ++ ) \n      {\n          ite_fn( collection[ i ], i , collection ) // 1 | 3\n\n          ite_str( collection[ i ], i , collection ) // 1 | 3\n\n          ite_obj( collection[ i ], i , collection ) // true | false\n      }"
+                ]
+            },
+            {
+                "name": "noop",
+                "type": "method",
+                "module": "ue-core-function",
+                "description": "Crea una función vacia. // TODO",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.function.js",
+                "line": 173,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // true\n  var fn = function( callback )\n  {\n     callback     = callback || ue.noop();\n  };"
+                ]
+            },
+            {
+                "name": "throttle",
+                "type": "method",
+                "module": "ue-core-function",
+                "description": "Returns a function, that, when invoked, will only be triggered at most once\nduring a given window of time. Normally, the throttled function will run\nas much as it can, without ever going more than once per `wait` duration;\nbut if you'd like to disable the execution on the leading edge, pass\n`{leading: false}`. To disable execution on the trailing edge, ditto.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.function.js",
+                "line": 204,
+                "overloads": [],
+                "example": [
+                    "\n     \n  var throttled = ue.throttle( updatePosition, 100 );\n\n  ue( window ).on( 'scroll', throttled );"
+                ]
+            }
+        ],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.function.js",
+        "line": 3
+    },
+    {
+        "name": "ue-core-number",
+        "modules": [],
+        "methods": [
+            {
+                "name": "rand",
+                "type": "method",
+                "module": "ue-core-number",
+                "description": "Crea un número aleatorio comprendido entre 0 y 1 en caso de no haber especificado un valor min ni max",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.number.js",
+                "line": 23,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 0.256878454\n  ue.rand();\n  \n  // 5\n  ue.rand( 10 );\n\n  // 35\n  ue.rand( 0, 50 );"
+                ]
+            },
+            {
+                "name": "rand",
+                "type": "method",
+                "module": "ue-core-number",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.number.js",
+                "line": 40,
+                "overloads": []
+            },
+            {
+                "name": "rand",
+                "type": "method",
+                "module": "ue-core-number",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.number.js",
+                "line": 46,
+                "overloads": []
+            },
+            {
+                "name": "even",
+                "type": "method",
+                "module": "ue-core-number",
+                "description": "Determina si un número es __Par__.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.number.js",
+                "line": 60,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // true\n  ue.even( 0 );\n  \n  // false\n  ue.even( 1 );\n\n  // true\n  ue.even( 2 );"
+                ]
+            },
+            {
+                "name": "odd",
+                "type": "method",
+                "module": "ue-core-number",
+                "description": "Determina si un número es __Impar__.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.number.js",
+                "line": 82,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // false\n  ue.odd( 0 );\n  \n  // true\n  ue.odd( 1 );\n\n  // false\n  ue.odd( 2 );"
+                ]
+            },
+            {
+                "name": "between",
+                "type": "method",
+                "module": "ue-core-number",
+                "description": "Fija como valores máximo y del número introducido en el parametro `number`. En caso que el número introducido sea mayor que el valor máximo aceptado, devolverá el valor máximo, lo mismo ocurre con el caso contrario.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.number.js",
+                "line": 104,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 5\n  ue.between( -5, 5, 10 );"
+                ]
+            },
+            {
+                "name": "min",
+                "type": "method",
+                "module": "ue-core-number",
+                "description": "Recorre todos los argumentos en busca del número menor de la serie.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.number.js",
+                "line": 122,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // - 5\n  ue.min( [ 3, 2, 3 ], [ 4, -5, 6 ], [[ 7, 8 ], 9 ] );"
+                ]
+            },
+            {
+                "name": "max",
+                "type": "method",
+                "module": "ue-core-number",
+                "description": "Recorre todos los argumentos en busca del número mayor de la serie.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.number.js",
+                "line": 143,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 9\n  ue.max( [ 3, 2, 3 ], [ 4, -5, 6 ], [[ 7, 8 ], 9 ] );"
+                ]
+            },
+            {
+                "name": "avg",
+                "type": "method",
+                "module": "ue-core-number",
+                "description": "Recorre todos los argumentos devolviendo el valor medio.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.number.js",
+                "line": 164,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 4.194444444444444\n  ue.avg( [ 3, 2, 3 ], [ 4, -5, 6 ], [[ 7, 8 ], 9 ] );"
+                ]
+            },
+            {
+                "name": "pow",
+                "type": "method",
+                "module": "ue-core-number",
+                "description": "Recorre todos los argumentos devolviendo el valor total de la multiplicación.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.number.js",
+                "line": 185,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // -1088640\n  ue.pow( [ 3, 2, 3 ], [ 4, -5, 6 ], [[ 7, 8 ], 9 ] );"
+                ]
+            },
+            {
+                "name": "div",
+                "type": "method",
+                "module": "ue-core-number",
+                "description": "Recorre todos los argumentos devolviendo el valor total de la división.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.number.js",
+                "line": 206,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // -347.1428571428571\n  ue.div( [ 3, 2, 3 ], [ 4, -5, 6 ], [[ 7, 8 ], 9 ] );"
+                ]
+            },
+            {
+                "name": "sum",
+                "type": "method",
+                "module": "ue-core-number",
+                "description": "Recorre todos los argumentos devolviendo el valor total de la suma.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.number.js",
+                "line": 227,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 37\n  ue.sum( [ 3, 2, 3 ], [ 4, -5, 6 ], [[ 7, 8 ], 9 ] );"
+                ]
+            }
+        ],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.number.js",
+        "line": 3,
+        "description": "Funcionalidad numerica."
+    },
+    {
+        "name": "ue-core-object",
+        "modules": [],
+        "methods": [
+            {
+                "name": "keys",
+                "type": "method",
+                "module": "ue-core-object",
+                "description": "Devuelve un array que contiene todas las claves del objeto.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.object.js",
+                "line": 14,
+                "overloads": [],
+                "example": [
+                    "\n\n  // [ \"foo\", \"bar\" ]\n  ue.keys({ foo : \"bar\", bar : \"foo\" });"
+                ]
+            },
+            {
+                "name": "values",
+                "type": "method",
+                "module": "ue-core-object",
+                "description": "Devuelve un array que contiene todas las claves del objeto.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.object.js",
+                "line": 52,
+                "overloads": [],
+                "example": [
+                    "\n\n  // [ \"foo\", \"bar\" ]\n  ue.values({ foo : \"bar\", bar : \"foo\" });"
+                ]
+            },
+            {
+                "name": "property",
+                "type": "method",
+                "module": "ue-core-object",
+                "description": "Returns a function that will itself return the value property of object passed by param.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.object.js",
+                "line": 79,
+                "overloads": [],
+                "example": [
+                    "\n\n  // \"item_2\"\n  var json    = \n  {\n      'foo'   :\n      {\n          'bar'   :\n          [\n              'item_1',\n              'item_2'\n          ]\n      }\n  };\n\n  // 'item_1'\n  ue.value( json )( \"foo.bar.0\" );\n\n  // 'item_2'\n  ue.value( json, \"foo.bar.1\" );\n\n  // false\n  ue.value( json, \"foo.bar.1\", false );"
+                ]
+            },
+            {
+                "name": "property",
+                "type": "method",
+                "module": "ue-core-object",
+                "description": "Returns a function that will itself return the key property of any passed-in object.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.object.js",
+                "line": 125,
+                "overloads": [],
+                "example": [
+                    "\n\n  // \"item_2\"\n  var json    = \n  {\n      'foo'   :\n      {\n          'bar'   :\n          [\n              'item_1',\n              'item_2'\n          ]\n      }\n  };\n\n  ue.property( \"foo.bar.2\" )( json )"
+                ]
+            },
+            {
+                "name": "property",
+                "type": "method",
+                "module": "ue-core-object",
+                "description": "Convert an object into a list of [key, value] pairs.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.object.js",
+                "line": 288,
+                "overloads": [],
+                "example": [
+                    "\n\n  var object    = \n  {\n      \"foo\"   : 1,\n      \n      \"bar\"   : 2\n  }\n\n  // [ [ \"foo\", 1 ], [ \"bar\", 2 ] ]\n  ue.pairs( object )"
+                ]
+            },
+            {
+                "name": "property",
+                "type": "method",
+                "module": "ue-core-object",
+                "description": "Convert an object into a list of [key, value] pairs.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.object.js",
+                "line": 324,
+                "overloads": [],
+                "example": [
+                    "\n\n  var object    = \n  {\n      \"foo\"   : 1,\n      \n      \"bar\"   : 2\n  }\n\n  // [ [ \"foo\", 1 ], [ \"bar\", 2 ] ]\n  ue.pairs( object )"
+                ]
+            }
+        ],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.object.js",
+        "line": 3
+    },
+    {
+        "name": "ue-core-string",
+        "modules": [],
+        "methods": [
+            {
+                "name": "len",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Returns the number of characters that are in a string, using an integer.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 31,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // 7\n  ue.len( 'foo bar' );"
+                ]
+            },
+            {
+                "name": "lower",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Make a string's all characters lowercase.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 48,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // foo bar\n  ue.lower( 'FoO BaR' );"
+                ]
+            },
+            {
+                "name": "upper",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Make a string's all characters uppercase.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 65,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // FOO BAR\n  ue.upper( 'FoO BaR' );"
+                ]
+            },
+            {
+                "name": "ucfirst",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Make a string's first character uppercase.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 82,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // Foo bar\n  ue.ucfirst( 'foo bar' );"
+                ]
+            },
+            {
+                "name": "uclast",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Make a string's last character uppercase.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 99,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // foo baR\n  ue.uclast( 'foo bar' );"
+                ]
+            },
+            {
+                "name": "lcfirst",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Make a string's first character lowercase.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 116,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // fOO BAR\n  ue.lcfirst( 'FOO BAR' );"
+                ]
+            },
+            {
+                "name": "lclast",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Make a string's last character lowercase.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 133,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // FOO BAr\n  ue.lcfirst( 'FOO BAR' );"
+                ]
+            },
+            {
+                "name": "camelCase",
+                "type": "method",
+                "module": "ue-core-string",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 150,
+                "overloads": [],
+                "example": [
+                    "\n      \n   // fooBar\n   ue.camelCase( 'foo bar' );"
+                ]
+            },
+            {
+                "name": "ltrim",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Strip whitespace (or other characters set by second parameter) from the beginning of a string.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 170,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // foo\n  ue.ltrim( '    foo' );"
+                ]
+            },
+            {
+                "name": "rtrim",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Strip whitespace (or other characters set by second parameter) from the end of a string.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 188,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // foo\n  ue.rtrim( 'foo   ' );"
+                ]
+            },
+            {
+                "name": "trim",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Strip whitespace (or other characters set by second parameter) from the beginning and end of a string.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 206,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // foo\n  ue.trim( '   foo   ' );"
+                ]
+            },
+            {
+                "name": "repeat",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Repeat a string __N__ times.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 224,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // foofoo\n  ue.repeat( 'foo', 2 );\n \n  // foobarfoo\n  ue.repeat( 'foo', 2, 'bar' );"
+                ]
+            },
+            {
+                "name": "lpad",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Pad a string from the beginning to a certain length with another string.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 254,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // ###foo\n  ue.lpad( 'foo', 6, '#' );"
+                ]
+            },
+            {
+                "name": "rpad",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Pad a string from the end to a certain length with another string.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 280,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // ###foo\n  ue.lpad( 'foo', 6, '#' );"
+                ]
+            },
+            {
+                "name": "pad",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Pad a string from the beginning and end to a certain length with another string.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 304,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // ###foo\n  ue.lpad( 'foo', 6, '#' );"
+                ]
+            },
+            {
+                "name": "pad",
+                "type": "method",
+                "module": "ue-core-string",
+                "description": "Pad a string from the beginning and end to a certain length with another string.",
+                "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+                "line": 325,
+                "overloads": [],
+                "example": [
+                    "\n     \n  // ###foo\n  ue.lpad( 'foo', 6, '#' );"
+                ]
+            }
+        ],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.string.js",
+        "line": 3
+    },
+    {
+        "name": "ue-core-var",
+        "modules": [],
+        "methods": [],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/core/ue.core.var.js",
+        "line": 3
+    },
+    {
+        "name": "ue.core",
+        "modules": [],
+        "methods": [],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/ue.core.js",
+        "line": 16
+    },
+    {
+        "name": "ue.script",
+        "modules": [],
+        "methods": [],
+        "file": "/Users/ruben.lopez/Enviroment/deploy/ueScript/src/ue.script.js",
+        "line": 7
+    }
+]

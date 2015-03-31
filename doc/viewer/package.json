@@ -1,0 +1,31 @@
+{
+  "name": "uedit-docs",
+  "version": "0.0.1",
+  "description": "Editor de documentación uEdit",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "editor",
+    "viewer",
+    "docs",
+    "doc",
+    "reference",
+    "framework"
+  ],
+  "author": "Rubén López Gómez",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.7.4",
+    "colors": "1.0.3",
+    "optimist": "0.6.x",
+    "union": "~0.4.3",
+    "ecstatic": "~0.5.6",
+    "portfinder": "0.2.x",
+    "opener": "~1.4.0"
+  }
+}
